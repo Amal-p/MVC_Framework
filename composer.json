@@ -1,0 +1,10 @@
+{
+    "name": "jacksparrow/frame_work",
+    "autoload": {
+        "psr-4": {
+            "Jacksparrow\\FrameWork\\": "src/",
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}

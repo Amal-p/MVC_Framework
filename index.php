@@ -13,10 +13,14 @@ $app = new Application();
 
 
 $app -> router -> get('/', function(){
-    return "Hello world";
+    return "Home Page";
 });
 $app -> router -> get('/contact', function(){
-    return "contact";
+    return "Contact Page";
+});
+
+$app -> router -> get('/about', function(){
+    return "About Page";
 });
 
 $app -> run();
